@@ -72,4 +72,5 @@ ds-cs2-ecommerce-recommendation system development project reference to Youtube 
 # 6. 프로젝트 작업자 
  - 김현재 (hyeonjae.gim@gmail.com)
  - 오예은 (lovely.ohyeah@gmail.com)
+ - 프로젝트 업무 일지: https://docs.google.com/spreadsheets/d/1F_dpeD6oU6LelSGLYVr_FeJeUvg6gxSp-WwDp1tY6zI/edit?usp=sharing
  
