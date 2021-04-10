@@ -11,7 +11,7 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
 
 ### 3. 프로젝트 가설, 예상결과, 연관자료: 
 <가설> 
- - 인스타카트 유저의 ‘재주문여부(reodered)’를 상품에 대한 평점(rating)으로 활용하여 like, dislike를 구분한 feature를 유튜브 추천방식인 ranking모델에 넣어 추출한 추천목록(1안)이 ‘주문회차(order_number)’를 평점(rating)개념으로 활용한 추천방식의 추천목록(2안)보다 평가지표인 nDCG 스코어가 높을 것이다. 
+ - 인스타카트 유저의 ‘재주문여부(reodered)’를 상품에 대한 평점(rating)으로 활용하여 like, dislike를 구분한 feature를 유튜브 추천방식인 ranking모델에 넣어 추출한 추천목록(1안)이 ‘주문회차(order_number)’를 평점(rating)개념으로 활용한 추천방식의 추천목록(2안)보다 추천목록의 평가지표인 nDCG 스코어가 높을 것이다. 
 
 <예상결과>
  - (1안)의 추천목록 결과의 nDCG 수치가 (2안)에 비하여 더 높을 것이다. 
