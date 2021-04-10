@@ -54,11 +54,52 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
 
 **<결과 요약>**
 
-(1) ranking_2안의 결과가 nDCG 스코어에서 0.12 높았음.
- - ranking_1안 ndcg 평균: 0.35
- - ranking_2안 ndcg 평균: 0.47 
+(1) ranking_1안의 전체 평균 결과는 nDCG 스코어에서 0.05 높음.
 
-(2) ranking 1,2 안의 차이점:
+ranking_1안 ndcg 평균: 0.41
+ranking_2안 ndcg 평균: 0.36
+
+(2) 유저별로 nDCG스코어가 ranking_1안이 높은 경우가 있고, ranking_2안이 높은 경우가 있으므로, 개인별 맞춤 제안을 하면 좋을 것.
+user3: 0.53 (ranking1_ndcg) > 0.34 (ranking2_ndcg)
+user1: 0.53 (ranking1_ndcg) < 0.61 (ranking2_ndcg)
+
+
+```
+[ ranking_1안의 유저별 dcg, idcg, ndcg ] 
+                   dcg      idcg      ndcg
+test-user1  2.130930  3.953465  0.539003
+test-user2  0.630930  3.953465  0.159589
+test-user3  2.130930  3.953465  0.539003
+test-user4  1.930677  3.953465  0.488351
+test-user5  1.317529  3.953465  0.333259
+-------------------
+
+[ ranking_1안의 dcg, idcg, ndcg평균 ] 
+dcg     1.628199
+idcg    3.953465
+ndcg    0.411841
+
+```
+
+
+```
+[ ranking_2안의 유저별 dcg, idcg, ndcg ] 
+                   dcg      idcg      ndcg
+test-user1  2.448459  3.953465  0.619320
+test-user2  1.000000  3.953465  0.252943
+test-user3  1.356207  3.953465  0.343043
+test-user4  1.130930  3.953465  0.286060
+test-user5  1.317529  3.953465  0.333259
+-------------------
+
+[ ranking_2안의 dcg, idcg, ndcg평균 ] 
+dcg     1.450625
+idcg    3.953465
+ndcg    0.366925
+
+```
+
+(3) ranking 1,2 안의 차이점 요약:
   - (ranking_1안) reorder(재주문 여부)로 rating을 매긴 개념으로, 재주문을 한 경우(1)라면 **like**, 재주문을 안 한 경우(0)라면 **dislike**로 상품을 구분한 feature를 랭킹모델에 추가하여 추천목록을 생성한 방법. 
   - (ranking_2안) order_number(주문회차: 몇번째 구매인지)로 rating을 매긴 개념으로, 평균 주문회차인 18 이상인 경우(1) **like**, 18 미만(0)이면 **dislike**로 상품을 구분한 feature를 랭킹모델에 추가하여 추천목록을 생성한 방법. 
 
