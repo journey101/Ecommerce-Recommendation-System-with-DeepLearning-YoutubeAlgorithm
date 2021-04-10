@@ -46,6 +46,9 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
  - 사용 라이브러리 및 패키지: Tensorflow, scikit-learn library
  - 분석환경: 구글 colab
 
+<사용한 데이터>
+ - [Instacart 데이터셋](https://www.kaggle.com/c/instacart-market-basket-analysis/data)
+ - [Instacart data dictionary](https://gist.github.com/jeremystan/c3b39d947d9b88b3ccff3147dbcf6c6b)
 
 ### 5. 결과 요약 및 향후 보완하면 좋을 사항:
 
