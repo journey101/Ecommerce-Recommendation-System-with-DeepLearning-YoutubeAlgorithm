@@ -56,12 +56,12 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
 
 (1) ranking_1안의 전체 평균 결과는 nDCG 스코어에서 0.05 높음.
 
-ranking_1안 ndcg 평균: 0.41
-ranking_2안 ndcg 평균: 0.36
+- ranking_1안 ndcg 평균: 0.41
+- ranking_2안 ndcg 평균: 0.36
 
 (2) 유저별로 nDCG스코어가 ranking_1안이 높은 경우가 있고, ranking_2안이 높은 경우가 있으므로, 개인별 맞춤 제안을 하면 좋을 것.
-user3: 0.53 (ranking1_ndcg) > 0.34 (ranking2_ndcg)
-user1: 0.53 (ranking1_ndcg) < 0.61 (ranking2_ndcg)
+- user3: 0.53 (ranking1_ndcg) > 0.34 (ranking2_ndcg)
+- user1: 0.53 (ranking1_ndcg) < 0.61 (ranking2_ndcg)
 
 
 ```
