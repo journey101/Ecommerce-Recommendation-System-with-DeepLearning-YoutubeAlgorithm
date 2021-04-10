@@ -10,10 +10,11 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
 - 커머스처럼 고객이 실시간으로 매우 많은 데이터를 양산하는 유튜브의 경우 특정 카테고리 영상(Ex.요리)을 본 다음, 요리영상만 시청하는 것이 아니라, 의식의 흐름대로 엔터테인먼트 영상을 보기도 한다. 커머스의 경우에도 특정 상품(ex. 화장품) 을 샀다가 키보드를 구매할 수도 있고, 유저 개인의 라이프스타일에 따라 구매했던 히스토리를 뉴럴네트워크(딥러닝)을 통해 학습하여 예측할 수 있다면 더 이상적인 커머스 플랫폼이 될 것이라는 기획의도로 본 프로젝트를 시작하게 되었다. 
 
 ### 3. 프로젝트 가설, 예상결과, 연관자료: 
-(가설) 인스타카트 유저의 ‘재주문여부(reodered)’를 상품에 대한 평점(rating)으로 활용하여 like, dislike를 구분한 feature를 유튜브 추천방식인 ranking모델에 넣어 추출한 추천목록(1안)이 ‘주문회차(order_number)’를 평점(rating)개념으로 활용한 추천방식보다 추천목록(2안)의 평가지표인 nDCG 스코어가 높을 것이다. 
+<가설> 
+ 인스타카트 유저의 ‘재주문여부(reodered)’를 상품에 대한 평점(rating)으로 활용하여 like, dislike를 구분한 feature를 유튜브 추천방식인 ranking모델에 넣어 추출한 추천목록(1안)이 ‘주문회차(order_number)’를 평점(rating)개념으로 활용한 추천방식보다 추천목록(2안)의 평가지표인 nDCG 스코어가 높을 것이다. 
 
 <예상결과>
-(1안)의 추천목록 결과의 nDCG 수치가 (2안)에 비하여 더 높을 것이다. 
+ (1안)의 추천목록 결과의 nDCG 수치가 (2안)에 비하여 더 높을 것이다. 
  -> recall, precision 대신 nDCG 를 비교하는 이유 : heavy 유저에 치중된 추천이 아니라, 신규 유저에게도 적합한 추천을 하기 위함이다. (cold-start문제 해소를 위한 방법) 
 
 <연관자료>
@@ -31,12 +32,12 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
 
 ### 4. 프로젝트 분석방법:
 <분석방법>
-(1) candidate generation model에서 후보목록을 추출한다. 
-(2) (1)의 모델을 활용하여 ranking model을 구축, 추천순위목록을 추출한다. 
- (2-1) 추천순위 목록에 들어가는 rating feature를 아래 2가지 방법으로 진행한다. 
+- (1) candidate generation model에서 후보목록을 추출한다. 
+- (2) 위 (1)의 모델을 활용하여 ranking model을 구축, 추천순위목록을 추출한다. 
+ - (2-1) 추천순위 목록에 들어가는 rating feature를 아래 2가지 방법으로 진행한다. 
    - 방법1: 재주문(reordered) 여부 (1이면 like, 0이면 dislike) 
    - 방법2: 주문회차(order_number) (평균수치인 18번 이상이면 like, 18번 미만이면 dislike) 
-(3) 방법 1, 2로 추출된 추천순위목록(ranking)의 ndcg 점수를 비교한다. 
+- (3) 방법 1, 2로 추출된 추천순위목록(ranking)의 ndcg 점수를 비교한다. 
 
 <결론 및 인사이트> 
 - 방법 1,2를 nDCG지표로 비교하여 추천한다. 또한, 고객의 입장에서 구매 고려 시 정성적으로 어떤 의미가 있을지 추가적인 인사이트를 리포트하기로 한다. 
