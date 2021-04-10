@@ -50,6 +50,7 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
 ### 5. 결과 요약 및 향후 보완하면 좋을 사항:
 
 **<결과 요약>**
+
 (1) ranking_2안의 결과가 nDCG 스코어에서 0.12 높았음.
  - ranking_1안 ndcg 평균: 0.35
  - ranking_2안 ndcg 평균: 0.47 
@@ -59,6 +60,7 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
   - (ranking_2안) order_number(주문회차: 몇번째 구매인지)로 rating을 매긴 개념으로, 평균 주문회차인 18 이상인 경우(1) **like**, 18 미만(0)이면 **dislike**로 상품을 구분한 feature를 랭킹모델에 추가하여 추천목록을 생성한 방법. 
 
 **<향후 보완하면 좋을 사항>**
+
 (1) 마케팅 프로모션으로 발전시키기 
  - 본 추천목록으로 나온 상품목록 중 미구매 상품이라면, 프로모션 쿠폰을 제공하는 등 구매 촉진을 유도할 수 있을 것. 
  - 1, 2안에서 나온 추천목록 상품들로 다양한 마케팅적 A/B테스트가 가능할 것으로 보임. 
