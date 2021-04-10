@@ -50,7 +50,7 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
 ### 5. 결과 요약 및 향후 보완하면 좋을 사항:
 
 **<결과 요약>**
-- (1) ranking_2안의 결과가 nDCG 스코어에서 0.12정도 높았음.
+- (1) ranking_2안의 결과가 nDCG 스코어에서 0.12 높았음.
  - ranking_1안 ndcg 평균: 0.35
  - ranking_2안 ndcg 평균: 0.47 
 - (2)  
