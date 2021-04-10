@@ -70,7 +70,7 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
  - <Entropy Diversity란?>
   - Entropy Diversity란 이러한 엔트로피의 개념을 추천 결과에 적용한 것으로, 모든 사용자들에게 비슷한 종류의 상품을 추천할 경우 해당 상품 추천은 자주 발생하므로 정보량이 낮다. 반면 개인에게 맞춤화 된 추천은 발생 횟수가 적으므로 정보량이 높아진다. 이들의 기대값을 구한 것이 바로 Entropy Diversity이다.
    - 5명의 유저에게 A부터 다섯개의 아이템 가운데 한개를 추천해주는 model A와 model B가 있다고 가정한다. model A는 모든 유저에게 상품 A를 추천하였다고 할 때, A가 추천될 확률은 1, 정보량은 0이 된다. 모든 유저에 대한 추천의 정보량이 0이므로 Entropy Diversity 역시 0이 된다. 반면 model B의 경우 모든 유저에게 각기 다른 상품을 추천한다. 이 때 각각의 상품이 추천되는 확률은 0.2, 정보량은 0.32, 엔트로피는 1.6이 된다.
-  - [※참고자료(추천엔진의 성능지표 관련 블로그)](https://yeomko.tistory.com/32)
+  - [※참고자료(추천엔진의 성능지표 관련 블로그)](https://yeomko.tistory.com/32) 에서 발췌
 
 ### 6. 프로젝트 작업자 (Collaborators)
  - 김현재 (hyeonjae.gim@gmail.com)
