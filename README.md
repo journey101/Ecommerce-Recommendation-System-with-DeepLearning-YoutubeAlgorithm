@@ -30,7 +30,7 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
 
 
 ### 4. 프로젝트 분석방법:
-<분석방법>
+<모델 구축, 평가지표 비교방법>
  - (1) candidate generation model에서 후보목록을 추출한다. 
  - (2) 위 (1)의 모델을 활용하여 ranking model을 구축, 추천순위목록을 추출한다. 
   - (2-1) 추천순위 목록에 들어가는 rating feature를 아래 2가지 방법으로 진행한다. 
