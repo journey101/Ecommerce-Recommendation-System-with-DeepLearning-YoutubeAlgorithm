@@ -1,4 +1,4 @@
-## DS-CS2-Ecommerce-recommendation-system
+## DS-CS2-Ecommerce-recommendation-system-using-YoutubeAlgorithm
 ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Recommendation algorithm'. 
 
 ### 1. 프로젝트 제목: 
