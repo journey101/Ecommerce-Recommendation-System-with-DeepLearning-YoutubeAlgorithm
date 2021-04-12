@@ -120,4 +120,4 @@ ndcg    0.366925
  - 김현재 (hyeonjae.gim@gmail.com)
  - 오예은 (lovely.ohyeah@gmail.com)
  - [프로젝트 기획과정, 업무 일지](https://docs.google.com/spreadsheets/d/1F_dpeD6oU6LelSGLYVr_FeJeUvg6gxSp-WwDp1tY6zI/edit?usp=sharing)
- 
+ - [발표자료(슬라이드)](https://www.slideshare.net/YEEUNOH2/ecommerce-recommendation-project)
