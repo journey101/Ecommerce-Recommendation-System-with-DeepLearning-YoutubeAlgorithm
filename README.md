@@ -54,12 +54,13 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
 
 **<결과 요약>**
 
-(1) 랭킹1안('재주문여부'를 평점으로 활용한 방법)이 랭킹2안('주문회차'를 평점으로 활용한 방법)보다 nDCG 스코어에서 0.05 높음.
+(1) 랭킹1안('재주문여부'를 평점으로 활용한 방법)이 랭킹2안('주문회차'를 평점으로 활용한 방법)보다 nDCG 스코어에서 0.05 높으므로 랭킹의 전체 평균을 고려한다면, '재주문여부'를 평점으로 활용한 랭킹1안의 추천목록 상품들을 고객이 실제 좋아할 가능성(true_like할 가능성)이 더 높다고 볼 수 있음. 
 
 - ranking_1안 ndcg 평균: 0.41
 - ranking_2안 ndcg 평균: 0.36
+  => 
 
-(2) 유저별로 nDCG스코어가 ranking_1안이 높은 경우가 있고, ranking_2안이 높은 경우가 있으므로, 개인별 맞춤 제안을 하면 좋을 것.
+(2) 다만, 유저별로 nDCG스코어가 랭킹1안이 높은 경우가 있고, 랭킹2안이 높은 경우가 있으므로 유저 개인별 맞춤 제안이 필요해 보임.
 - user3: 0.53 (ranking1_ndcg) > 0.34 (ranking2_ndcg)
 - user1: 0.53 (ranking1_ndcg) < 0.61 (ranking2_ndcg)
 
