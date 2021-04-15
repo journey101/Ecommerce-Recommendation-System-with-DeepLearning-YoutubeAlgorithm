@@ -54,7 +54,7 @@ ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Rec
 
 **<결과 요약>**
 
-(1) ranking_1안의 전체 평균 결과는 nDCG 스코어에서 0.05 높음.
+(1) 랭킹1안('재주문여부'를 평점으로 활용한 방법)이 랭킹2안('주문회차'를 평점으로 활용한 방법)보다 nDCG 스코어에서 0.05 높음.
 
 - ranking_1안 ndcg 평균: 0.41
 - ranking_2안 ndcg 평균: 0.36
