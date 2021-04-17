@@ -1,5 +1,5 @@
-## DS-CS2-Ecommerce-recommendation-system-using-YoutubeAlgorithm
-ds-cs2-ecommerce-recommendation system development project adapting 'Youtube Recommendation algorithm'. 
+## Ecommerce-Recommendation-System-using-DeepLearning-YoutubeAlgorithm
+Ecommerce-Recommendation System Developing project adapting 'DeepLearning-Youtube-Recommendation-algorithm'. 
 
 ### 1. 프로젝트 제목: 
 - 뉴럴네트워크(딥러닝)를 활용한 이커머스 추천서비스 개발
