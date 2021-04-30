@@ -58,7 +58,7 @@ Ecommerce-Recommendation System Developing project adapting 'DeepLearning-Youtub
 
 - ranking_1안 ndcg 평균: 0.41
 - ranking_2안 ndcg 평균: 0.36
-  => 
+
 
 (2) 다만, 유저별로 nDCG스코어가 랭킹1안이 높은 경우가 있고, 랭킹2안이 높은 경우가 있으므로 유저 개인별 맞춤 제안이 필요해 보임.
 - user3: 0.53 (ranking1_ndcg) > 0.34 (ranking2_ndcg)
