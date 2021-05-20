@@ -1,5 +1,5 @@
-## Ecommerce-Recommendation-System-using-DeepLearning-YoutubeAlgorithm
-Ecommerce-Recommendation System Developing project adopting 'DeepLearning-Youtube-Recommendation-algorithm'. 
+## Ecommerce-Recommendation-System-with-DeepLearning-YoutubeAlgorithm
+Ecommerce-Recommendation System Developing project with 'DeepLearning-Youtube-Recommendation-algorithm'. 
 
 ### 1. 프로젝트 제목: 
 - 뉴럴네트워크(딥러닝)를 활용한 이커머스 추천모델링 
