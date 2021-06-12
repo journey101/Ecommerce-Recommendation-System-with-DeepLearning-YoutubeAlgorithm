@@ -122,4 +122,6 @@ ndcg    0.366925
  - 오예은 (lovely.ohyeah@gmail.com)
  - [프로젝트 기획과정, 업무 일지](https://docs.google.com/spreadsheets/d/1F_dpeD6oU6LelSGLYVr_FeJeUvg6gxSp-WwDp1tY6zI/edit?usp=sharing)
  - [발표자료(슬라이드)](https://www.slideshare.net/YEEUNOH2/ecommerce-recommendation-project)
+ - [발표영상 - 김현재](https://youtu.be/ckCsqDbGDhk)
+ - [발표영상 - 오예은](https://youtu.be/j-5i2biY_Go)
  - 진행기간: 2021.3.22 - 2021.4.12
