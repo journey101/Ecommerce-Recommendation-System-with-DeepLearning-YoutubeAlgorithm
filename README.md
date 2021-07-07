@@ -22,11 +22,13 @@ Ecommerce-Recommendation System Developing project with 'DeepLearning-Youtube-Re
 
  - 2.[유튜브 추천모델 논문 (Deep Neural Networks for YouTube Recommendations)](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/45530.pdf)
 
- - 3.[모델 성능 지표에 대한 참고 자료](https://medium.com/code-states/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-4e5044960bdd)
+ - 3.[movielens 데이터로 구현한 후보모델, 순위모델 코드](https://github.com/HYEZ/Deep-Youtube-Recommendations/blob/master/neural_net.ipynb)
 
- - 4.[Learning to Rank와 nDCG 개념](https://yamalab.tistory.com/119)
+ - 4.[모델 성능 지표에 대한 참고 자료](https://medium.com/code-states/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-4e5044960bdd)
 
- - 5.[Learning to Rank by Optimizing NDCG Measure](https://papers.nips.cc/paper/2009/file/b3967a0e938dc2a6340e258630febd5a-Paper.pdf)
+ - 5.[Learning to Rank와 nDCG 개념](https://yamalab.tistory.com/119)
+
+ - 6.[Learning to Rank by Optimizing NDCG Measure](https://papers.nips.cc/paper/2009/file/b3967a0e938dc2a6340e258630febd5a-Paper.pdf)
 
 
 ### 4. 프로젝트 분석방법:
