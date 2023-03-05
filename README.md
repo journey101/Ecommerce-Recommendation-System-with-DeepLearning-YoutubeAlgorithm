@@ -15,7 +15,7 @@ Ecommerce-Recommendation System Developing project with 'DeepLearning-Youtube-Re
 
 <예상결과>
  - (1안)의 추천목록 결과의 nDCG 수치가 (2안)에 비하여 더 높을 것이다. 
-  - ※ recall, precision 대신 nDCG 를 비교하는 이유 : heavy 유저에 치중된 추천이 아니라, 신규 유저에게도 적합한 추천을 하기 위함이다. (cold-start문제 해소를 위한 방법) 
+
 
 <참고자료>
  - 1.[[ 국내 이커머스 산업의 AI 활용현황과 전망 ] kdb미래전략연구소 산업기술리서치센터 보고서](https://file.mk.co.kr/meet/2020/06/pdf_readtop_2020_626590_1592459706.pdf) 
