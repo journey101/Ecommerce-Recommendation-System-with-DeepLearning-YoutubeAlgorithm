@@ -38,7 +38,7 @@ Ecommerce-Recommendation System Developing project with 'DeepLearning-Youtube-Re
    - 방법1: 재주문(reordered) 여부 (1이면 like, 0이면 dislike) 
    - 방법2: 주문회차(order_number) (평균수치인 18번 이상이면 like, 18번 미만이면 dislike) 
  - (3) 방법 1, 2로 추출된 추천순위목록(ranking)의 ndcg 점수를 비교한다. 
- - recall, precision 대신 nDCG 사용이유: recall, precision은 추천 목록의 정확도를 평가하는데에는 좋지만, 추천 순위들의 퀄리티를 측정하기에는 추천 순위들간의 가중치를 고려한 nDCG를 활용하는 것이 좋기 때문. 
+ - nDCG와 recall의 장점을 활용한 이유: 추천된 아이템들 중 사용자가 실제 좋아한 아이템 수를 사용자가 좋아한 전체 아이템수로 나눈 recall의 개념으로 nDCG 점수를 계산함으로써 recall지수가 높은 아이템을 목록 상단에 잘 추천하는 것을 검증하기 위함.
 
 <결론 및 인사이트> 
  - 방법 1,2를 nDCG지표로 비교하여 추천한다. 또한, 고객의 입장에서 구매 고려 시 정성적으로 어떤 의미가 있을지 추가적인 인사이트를 리포트하기로 한다. 
